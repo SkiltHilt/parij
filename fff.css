@@ -20,9 +20,10 @@ html{height: 100%;}
     display: flex; 
     object-fit: cover; 
     position: relative; 
+    overflow-y: hidden;
 
-    margin: 0px; 
-    height: 100%; 
+    margin: 0;
+    height: 100vh; 
 } 
  
  
@@ -41,11 +42,10 @@ html{height: 100%;}
     z-index: 1;  
     text-align: center;  
     font-family: 'Raleway';
-
-    font-weight: 800;  
-    font-size: 116px;  
-    width: 739px;  
-    height: 408px;  
+  
+    font-size: 130px;  
+    width: 760px;  
+    height: 310px;  
     margin: 0 auto;
 } 
 
@@ -59,9 +59,9 @@ html{height: 100%;}
   
 
   font-size: 20px; 
-  right: 80px; 
-  padding: 36px 44px 36px 44px;
-  margin: 100px 22px 562px 834px;
+  right: 20px; 
+  padding: 30px;
+  margin: 20px 22px 562px 834px;
   letter-spacing: 0.1em;
   
   
@@ -79,4 +79,4 @@ html{height: 100%;}
     opacity: 0.8; 
 } 
  
-.title:hover{color: #4C4C4C; }
+.title:hover{color: #817d7d; }
