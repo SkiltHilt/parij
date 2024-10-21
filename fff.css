@@ -42,10 +42,10 @@ html{height: 100%;}
     text-align: center;  
     font-family: 'Raleway';
   
-    font-size: 116px;  
+    font-size: 100px;  
     width: 739px;  
     height: 408px;  
-    margin: 0 auto;
+    margin: 50px auto;
 } 
 
 .title::after{content: "*";}
